@@ -4,8 +4,8 @@ dirfiles is a tool to find directories with entries that match one regex, but no
 
 You can almost certainly do this in pure bash, but for me this was easier.
 
-create_jpeg.sh is a helper script to create a cover.jpg file from a supplied cover.png file
+`create_jpeg.sh` is a helper script to create a `cover.jpg` file from a supplied `cover.png` file
 
 Use the 2 together to create cover.jpg files required by your media streamer for directories where you only have a .png version [you know, because it 2016, and why would any new product support png?, sigh], e.g.
 
-./dirfiles -d /Volumes/Zaphod/Music/ | ./create_jpeg.sh
+    ./dirfiles -d /Volumes/Zaphod/Music/ | ./create_jpeg.sh
